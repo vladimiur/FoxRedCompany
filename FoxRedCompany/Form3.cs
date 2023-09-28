@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FoxRedCompany
 {
@@ -15,6 +16,12 @@ namespace FoxRedCompany
         public Form3()
         {
             InitializeComponent();
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            textBox2.Clear();
+            textBox3.Clear();
         }
     }
 }
