@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +118,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change-password-icon-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\542638.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2198371.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
