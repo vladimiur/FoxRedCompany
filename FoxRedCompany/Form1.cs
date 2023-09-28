@@ -17,14 +17,16 @@ namespace FoxRedCompany
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void rjButton1_Click(object sender, EventArgs e)
         {
-
+            Form formulario = new Form3();
+            formulario.ShowDialog();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void rjButton2_Click(object sender, EventArgs e)
         {
-
+            Form formulario = new Form2();
+            formulario.ShowDialog();
         }
     }
 }
